@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root{
+            --backgroundColor: #cecece;
+        }
+        body{
+            background-color: var(--backgroundColor);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Reciept{
+            width: 500px;
+            height: auto;
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+
+            /* position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50, -50); */
+        }
+        .capBox{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .itemBox{
+            display: grid;
+            align-items: center;
+        }
+        .notecContainer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .notecContainer div:nth-child(1){
+            margin-left: -30px;
+        }
+        .notecContainer div:nth-child(2){
+            margin-right: -30px;
+        }
+        .notch{
+            width: 20px;
+            height: 20px;
+            background-color: var(--backgroundColor);
+            border-radius: 50%;
+            position: relative;
+
+        }
+        hr{
+            border-top: 1px dotted #000;
+            margin: 10px;
+        }
+        .items{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+    <title>Bill Reciept</title>
+</head>
+<body>
+        <div class="Reciept">
+            <div class="capBox">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36px" height="36px"><path fill="#ff8100"  d="M36,1.74V0H17.65A18,18,0,1,0,32.81,7.84,7.41,7.41,0,0,0,36,1.74ZM18,26.67A8.67,8.67,0,1,1,26.63,18,8.67,8.67,0,0,1,18,26.67Z"/><ellipse fill="#ff8100" cx="17.97" cy="18" rx="3.8" ry="3.81"/></svg>
+                </div>
+                <h3>Transaction Details</h3>
+            </div>
+            <div class="notecContainer">
+                <div class="notch"></div>
+                <div class="notch"></div>
+            </div>
+            
+            <div>
+                <hr>
+            </div>
+            <div class="itemBox">
+                <div class="items">
+                    <p>Service</p>
+                    <p>Electricity</p>
+                </div>
+                <div class="items">
+                    <p>DISCO</p>
+                    <p>BEDC</p>
+                </div>
+                <div class="items">
+                    <p>Meter No:</p>
+                    <p>1223334444</p>
+                </div>
+                <div class="items">
+                    <p>Meter Type</p>
+                    <p>PREPAID</p>
+                </div>
+                <div class="items">
+                    <p>Token</p>
+                    <p>34456374547</p>
+                </div>
+                <div class="items">
+                    <p>Token</p>
+                    <p>12.35KWH</p>
+                </div>
+                <div class="items">
+                    <p>Customers Address</p>
+                    <p>1 Akintola Street</p>
+                </div>
+                <div class="items">
+                    <p>Transfer_ref</p>
+                    <p>djjhsvkvjj</p>
+                </div>
+                <div class="items">
+                    <p>Date</p>
+                    <p>25th August 2023</p>
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <div class="items">
+                    <p>Amount</p>
+                    <p>₦15,000.00</p>
+                </div>
+                <div>
+                    <hr>
+                </div>
+            </div>
+            <div style="text-align: center;"><p>Powered by Gosub Limited (RC1738098)</p></div>
+            
+        </div>
+        
+        
+</body>
+</html>
