@@ -6,156 +6,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Cable TV</title>
     <style>
-        :root{
-            --fontColor: #2e2e2e;
-        }
         body{
-            background-color: #fff;
-            color: var(--fontColor);
-            display: flex;
-            justify-content: center;
-            align-items: center;
             font-family: "Montserrat", sans-serif;
-            padding: 10px;
         }
-        a:visited{
-            color: var(--fontColor);
-        }
-        .receiptContainer{
-            width: 600px;
-            height: auto;
-        }
-        div p:nth-child(1){
-            /* color: red; */
-            text-align: left;
-        }
-        div p:nth-child(2){
-            /* color: blue; */
-            text-align: right;
-        }
-        .receiptHeader{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 30px;
-            border-radius: 15px;
-            background-color: #fff;
-            /* margin-bottom: 5px; */
-            border: 1px solid #cecece;
-            
-        }
-        .receiptItems{
-            background-color: #fff;
-            border-radius: 15px;
-            padding: 20px 30px;
-            margin: 5px 0;
-            border: 1px solid #cecece;
-        }
-        .item{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: -10px 0px;
-        }
-        .receiptAmount{
-            background-color: #fff;
-            border-radius: 15px;
-            padding: 20px 30px;
-            border: 1px solid #cecece;
-        }
-        hr{
-            border-top: 1px solid #cecece;
-            border-bottom: none;
-            border-left: none;
-            border-right: none;
-        }
-        .receiptFooter .item{
-                display: grid;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-            }
-        @media (min-width: 640px){
-            .receiptHeader{
-                padding: 20px 50px;
-            }
-            .receiptAmount{
-                padding: 20px 50px;
-            }
-            .receiptItems{
-                padding: 20px 50px;
-            }
-            .receiptFooter .item{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding-top: 10px ;
-            }
+        table{
+            border: 1px solid #949393;
+            margin-bottom: 5px;
         }
     </style>
+    <title>Document</title>
 </head>
-<body>
-    <div class="receiptContainer">
-        <div class="receiptHeader">
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="30px" height="30px"><path fill="#ff8100"  d="M36,1.74V0H17.65A18,18,0,1,0,32.81,7.84,7.41,7.41,0,0,0,36,1.74ZM18,26.67A8.67,8.67,0,1,1,26.63,18,8.67,8.67,0,0,1,18,26.67Z"/><ellipse fill="#ff8100" cx="17.97" cy="18" rx="3.8" ry="3.81"/></svg>
-            </div>
-            <h3>Transaction Details</h3>
-        </div>
-        <div class="receiptItems">
-            <div class="item">
-                <p>Service</p>
-                <p>Cable TV</p>
-            </div>
-            <hr>
-            <div class="item">
-                <p>Provider</p>
-                <p>DSTV</p>
-            </div>
-            <hr>
-            <div class="item">
-                <p>Package/ Bouquet</p>
-                <p>Premium</p>
-            </div>
-            <hr>
-            <div class="item">
-                <p>Decoder No:</p>
-                <p>1223334444</p>
-            </div>
-            <hr>
-            <div class="item">
-                <p>Transaction status</p>
-                <p>success</p>
-            </div>
-            <hr>
-            <div class="item">
-                <p>Customers address</p>
-                <p>12, Akintola street</p>
-            </div>
-            <hr>
-            <div class="item">
-                <p>Reference No:</p>
-                <p>1223334444</p>
-            </div>
-            <hr>
-            <div class="item">
-                <p>Date</p>
-                <p>12 August 2034</p>
-            </div>
-        </div>
-        <div class="receiptAmount">
-            <div class="item">
-                <p>Amount</p>
-                <p><strong>₦6,455.00</strong></p>
-            </div>
-        </div>
-        <div class="receiptFooter">
-            <div class="item">
-                <p>Powered by Gosub Limited (RC1738098)</p>
-                <a href="https://gosub.ng/" style="text-decoration: none;">www.gosub.ng</a>
-            </div>
+<body style="display: flex; justify-content: center;">
+    <div style=" max-width: 800px; margin: 0 auto; padding: 10px; box-sizing: border-box;">
+        <table style=" background-color: #fff; border-radius: 20px; padding: 20px 40px; width: 600px; height: auto; display: table;">
+            <tr>
+                <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="30px" height="30px"><path fill="#ff8100"  d="M36,1.74V0H17.65A18,18,0,1,0,32.81,7.84,7.41,7.41,0,0,0,36,1.74ZM18,26.67A8.67,8.67,0,1,1,26.63,18,8.67,8.67,0,0,1,18,26.67Z"/><ellipse fill="#ff8100" cx="17.97" cy="18" rx="3.8" ry="3.81"/></svg></td>
+                <td style="text-align: right;"><strong>Transaction Details</strong></td>
+            </tr>
+        </table>
+        <table style=" background-color: #fff; border-radius: 20px; padding: 20px 40px; width: 600px; height: 400px; display: table;">
+            <tr>
+                <td style="border-bottom: 1px solid #949393;">Service</td>
+                <td style="text-align: right; border-bottom: 1px solid #949393;">Cable TV</td>
+            </tr>
+            <tr>
+                <td style="border-bottom: 1px solid #949393;">Provider</td>
+                <td style="text-align: right; border-bottom: 1px solid #949393;">DSTV</td>
+            </tr>
+            <tr>
+                <td style="border-bottom: 1px solid #949393;">Package/ Bouquet</td>
+                <td style="text-align: right; border-bottom: 1px solid #949393;">Premium</td>
+            </tr>
+            <tr>
+                <td style="border-bottom: 1px solid #949393;">Decoder No:</td>
+                <td style="text-align: right; border-bottom: 1px solid #949393;">1223334444</td>
+            </tr>
+            <tr>
+                <td style="border-bottom: 1px solid #949393;">Transaction status</td>
+                <td style="text-align: right; border-bottom: 1px solid #949393;">success</td>
+            </tr>
+            <tr>
+                <td style="border-bottom: 1px solid #949393;">Customers address</td>
+                <td style="text-align: right; border-bottom: 1px solid #949393;">12, Akintola street</td>
+            </tr>
+            <tr>
+                <td style="border-bottom: 1px solid #949393;">Reference No:</td>
+                <td style="text-align: right; border-bottom: 1px solid #949393;">1223334444</td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td style="text-align: right;">12 August 2034</td>
+            </tr>
+        </table>
+        <table style=" background-color: #fff; border-radius: 20px; padding: 20px 40px; width: 600px; height: auto; display: table;">
+            <tr>
+                <td><strong>Amount</strong></td>
+                <td style="text-align: right;"><strong>₦6,455.00</strong></td>
+            </tr>
+        </table>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <p>Powered by Gosub Limited</p>
+            <a href="https://www.gosub.ng/" style="text-decoration: none; color: #000;">www.gosub.ng</a>
         </div>
     </div>
 </body>
